@@ -1,0 +1,15 @@
+// GA4 reference for custom events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#custom_events
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'ninja_form_submission',
+  form_name: 'Start Investing',
+  user_data: {
+    first_name: '', // Populate dynamically
+    last_name: '',  // Populate dynamically
+    email: '',      // Populate dynamically
+    preferred_communication: '', // Populate dynamically
+    country: '',    // Populate dynamically
+    language: ''    // Populate dynamically
+  }
+});
