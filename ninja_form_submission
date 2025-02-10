@@ -3,13 +3,13 @@
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'ninja_form_submission',
-  form_name: 'Start Investing',
-  user_data: {
-    first_name: '', // Populate dynamically
-    last_name: '',  // Populate dynamically
-    email: '',      // Populate dynamically
-    preferred_communication: '', // Populate dynamically
-    country: '',    // Populate dynamically
-    language: ''    // Populate dynamically
-  }
+  form_name: 'form name',
+  form_id: 'nf_12345', // Example: Unique form ID assigned by Ninja Forms
+  form_submission_id: 'sub_67890', // Example: Unique submission ID (e.g., timestamp or generated ID)
+  first_name: 'John', // Example: User's first name
+  last_name: 'Doe', // Example: User's last name
+  email: 'john.doe@example.com', // Example: User's email address
+  country: 'Germany', // Example: User's selected country
+  language: 'German' // Example: User's preferred language
 });
+
