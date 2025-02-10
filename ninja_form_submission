@@ -9,7 +9,7 @@ window.dataLayer.push({
   first_name: 'John', // Example: User's first name
   last_name: 'Doe', // Example: User's last name
   email: 'john.doe@example.com', // Example: User's email address
-  country: 'Germany', // Example: User's selected country
+  country: 'Austria', // Example: User's selected country
   language: 'German' // Example: User's preferred language
 });
 
