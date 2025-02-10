@@ -1,0 +1,15 @@
+// GA4 reference for custom events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#custom_events
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'form_submission',
+  form_name: '', // Example: Leave blank as requested
+  form_id: '6', // Example: Unique form ID assigned by Salesforce
+  form_submission_id: '12345', // Example: Unique submission ID 
+  office: 'Berlin', // Example: User's selected office location
+  first_name: 'Lukas', // Example: User's first name
+  last_name: 'Müller', // Example: User's last name
+  email: 'lukas.mueller@example.de', // Example: User's email address
+  phone_number: '+49-170-1234567', // Example: German phone number
+  username: 'lukas.mueller2024' // Example: User's username
+});
