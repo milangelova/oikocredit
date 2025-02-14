@@ -5,7 +5,8 @@ window.dataLayer.push({
   event: 'ninja_form_submission',
   form_name: 'form name',
   form_id: '9', // Example: Unique form ID assigned by Ninja Forms
-  form_submission_id: '67890', // Example: Unique submission ID
+  form_submission_id: '78', // Example: Unique submission ID
+  post_id: '32525', // Example: Unique post ID
   first_name: 'John', // Example: User's first name
   last_name: 'Doe', // Example: User's last name
   email: 'john.doe@example.com', // Example: User's email address
